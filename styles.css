@@ -51,14 +51,14 @@ body {
 }
 
 .facebook {
-    margin: 20px 20px 20px 20px;
+    margin: -100000000px 20px 20px 20px;
     position: relative;
     border-radius: 15px;
-    border: none;
+    border: solid;
     font-size: 30px;
     font-family: Oswald;
     color: white;
-    padding: 0.2em 1.5em;
+    padding: 0em 0.5em;
     background: #3B5998;
     transition-duration: .1s;  
     cursor: pointer;
@@ -66,9 +66,9 @@ body {
 }
 
 .facebook:hover {
-    background-color: midnightblue;
+    background-color: white;
     color:#3B5998;
-    transform: scale(1.045,1.045);
+    transform: scale(1,1);
     transition-duration: .1s;
 }
 
@@ -80,14 +80,14 @@ body {
 }
 
 .gplus {
-    margin: 50px 50px 50px 50px;
-    position: relatsssive;
+    margin: -100000000px 70px 50px -30px;
+    position: relative;
     border-radius: 15px;
-    border: none;
+    border: solid;
     font-size: 30px;
     font-family: Oswald;
     color: white;
-    padding: 0.2em 1.5em;
+    padding: 0em 0.25em;
     background: #fe4a67;
     transition-duration: .1s;  
     cursor: pointer;
@@ -95,17 +95,46 @@ body {
 }
 
 .gplus:hover {
-    background: crimson;
-    color:white;
-    transform: scale(1.045,1.045);
+    background: white;
+    color:#fe4a67;
+    transform: scale(1,1);
     transition-duration: .1s;
+    border: solid;
 }
 
 .gplus:active {
     transform: scale(0.98,0.98);
-    background: crimson;
-    color: white;
+    background: white;
+    color: #fe4a67;
 }
+
+.insta {
+    margin: 55px -181px 50px;
+    position: relative;
+    border-radius: 15px;
+    font-size: 30px;
+    border: solid;
+    font-family: Oswald;
+    color: white;
+    background: #bc2a8d;
+    padding: 0em 0.559em;
+    transition-duration: .1s;
+    cursor: pointer;
+}
+
+.insta:hover {
+    background: white;
+    color: #bc2a8d;
+    transform: scale(1,1);
+    transition-duration: .1s;
+}
+
+.insta:active {
+    transform: scale(0.98,0.98);
+    background: white;
+    color: #bc2a8d;
+}
+
 .main p {
     font-size: 18px;
     font-family: Helvetica, serif;

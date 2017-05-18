@@ -79,32 +79,32 @@ body {
     transition-duration: .1s;
 }
 
-.twitter {
+.gplus {
     margin: 50px 50px 50px 50px;
-    position: relative;
+    position: relatsssive;
     border-radius: 15px;
     border: none;
     font-size: 30px;
     font-family: Oswald;
-    color: skyblue;
+    color: white;
     padding: 0.2em 1.5em;
-    background: aliceblue;
+    background: #fe4a67;
     transition-duration: .1s;  
     cursor: pointer;
     outline: 0;
 }
 
-.twitter:hover {
-    background: skyblue;
-    color:aliceblue;
+.gplus:hover {
+    background: crimson;
+    color:white;
     transform: scale(1.045,1.045);
     transition-duration: .1s;
 }
 
-.twitter:active {
+.gplus:active {
     transform: scale(0.98,0.98);
-    background: #72BCDB;
-    color: #E8E8ED;
+    background: crimson;
+    color: white;
 }
 .main p {
     font-size: 18px;

@@ -50,12 +50,12 @@ body {
     position: relative;
 }
 
-.button {
+.facebook {
     margin: 20px 20px 20px 20px;
     position: relative;
     border-radius: 15px;
     border: none;
-    font-size: 50px;
+    font-size: 30px;
     font-family: Oswald;
     color: white;
     padding: 0.2em 1.5em;
@@ -65,26 +65,26 @@ body {
     outline: 0;
 }
 
-.button:hover {
+.facebook:hover {
     background-color: midnightblue;
     color:#3B5998;
     transform: scale(1.045,1.045);
     transition-duration: .1s;
 }
 
-.button:active {
+.facebook:active {
     transform: scale(0.98,0.98);
     background-color: dodgerblue;
     color: #E8E8ED;
     transition-duration: .1s;
 }
 
-.button1 {
+.twitter {
     margin: 50px 50px 50px 50px;
     position: relative;
     border-radius: 15px;
     border: none;
-    font-size: 50px;
+    font-size: 30px;
     font-family: Oswald;
     color: skyblue;
     padding: 0.2em 1.5em;
@@ -94,15 +94,19 @@ body {
     outline: 0;
 }
 
-.button1:hover {
+.twitter:hover {
     background: skyblue;
     color:aliceblue;
     transform: scale(1.045,1.045);
     transition-duration: .1s;
 }
 
-.button1:active {
+.twitter:active {
     transform: scale(0.98,0.98);
     background: #72BCDB;
     color: #E8E8ED;
+}
+.main p {
+    font-size: 18px;
+    font-family: Helvetica, serif;
 }

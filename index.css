@@ -43,16 +43,10 @@
 }
 h1{
     font-family: "Roboto", sans-serif;
-    margin-left: 15px
+    text-align: center;
     font-size: 100px;
     font-weight: 200
-    color: lightslategrey;
-}
-.red{
-    color: red;
-}
-.blue{
-    color: blue;
+    color: #DCEDC8;
 }
 .form {
   position: relative;

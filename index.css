@@ -47,7 +47,12 @@ h1{
     font-size: 50px;
     font-weight: 200
 }
-.red
+.red{
+    color: red;
+}
+.blue{
+    color: blue;
+}
 .form {
   position: relative;
   z-index: 1;

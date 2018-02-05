@@ -43,9 +43,9 @@
 }
 h1{
     font-family: "Roboto", sans-serif;
-    text-align: center;
-    font-size: 50px;
-    font-weight: 200px
+    margin-left: 15px
+    font-size: 100px;
+    font-weight: 200
     color: lightslategrey;
 }
 .red{

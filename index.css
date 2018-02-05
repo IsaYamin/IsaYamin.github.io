@@ -43,6 +43,8 @@
 }
 h1{
     font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-size: 50px;
 }
 .form {
   position: relative;
